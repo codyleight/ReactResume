@@ -1,6 +1,6 @@
 export default function Nav({ links }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-warning">
+    <nav className="navbar navbar-expand-lg bg-warning nav1  coolshadow">
       <div className="container-fluid">
         <ul className="navbar-nav mb-2 mb-lg-2 text-light">
           Cody Thompson Portfolio

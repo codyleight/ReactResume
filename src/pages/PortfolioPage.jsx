@@ -8,7 +8,7 @@ export default function PortfolioPage() {
 
    
   
-    <div className="bg-dark text-primary d-flex justify-content-center" >
+    <div className="bg text-primary d-flex justify-content-center" >
        
 
       <div class="row">

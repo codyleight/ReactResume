@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgb(1, 4, 54);
   text-decoration: inherit;
 }
 a:hover {
@@ -24,6 +24,8 @@ a:hover {
 }
 
 body {
+  background: rgb(130,45,209);
+  background: linear-gradient(90deg, rgba(130,45,209,1) 0%, rgba(0,198,195,1) 46%, rgba(255,230,0,1) 100%);
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -34,6 +36,42 @@ h1 {
   line-height: 1.1;
 }
 
+.nav1{
+  border-radius: 3px;
+  background: #000000;
+  
+}
+
+.small-icon {
+  font-size: 20px;
+}
+
+.home{
+  border-radius: 5px;
+  background-color: #000000;
+  outline: 3px solid rgb(1, 0, 2);
+  margin-top: 1px;
+}
+
+.coolshadow{
+  outline: 3px solid rgb(0, 0, 0);
+
+  box-shadow:
+    inset 0 0 50px #8a02a5,
+    inset 20px 0 80px rgb(255, 1, 200),
+    inset -20px 0 80px rgb(47, 111, 196),
+    inset 20px 0 300px rgb(250, 246, 1),
+    inset -20px 0 300px rgb(247, 10, 255),
+    0 0 50px #1063fd,
+    -10px 0 80px rgb(243, 247, 16),
+    10px 0 80px rgba(243, 0, 0, 0.897);
+}
+
+.bg{
+  background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(130,45,209,1) 0%, rgba(0,198,195,1) 46%, rgba(255,230,0,1) 100%);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -41,12 +79,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #d81b1b;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #050a70;
 }
 button:focus,
 button:focus-visible {
@@ -60,9 +98,16 @@ button:focus-visible {
   padding: 1em;
 }
 
+.footer2{
+  position:absolute;
+left:0;
+bottom:0;
+right:0;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #253e53;
     background-color: #ffffff;
   }
   a:hover {

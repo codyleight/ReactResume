@@ -5,7 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //css
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './index.css';
+
 
 
 //pages, todo: nav bar and resume page.

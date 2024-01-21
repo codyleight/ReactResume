@@ -8,7 +8,7 @@ export default function AboutPage() {
 
    
    
-    <div className="bg-dark text-primary d-flex justify-content-center row text-center" >
+    <div className="bg text-primary d-flex justify-content-center row text-center" >
         <h2>
             About Me
         </h2>
