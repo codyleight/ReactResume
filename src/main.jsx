@@ -51,9 +51,6 @@ const router = createBrowserRouter([
   ]);
   
   // Render the RouterProvider component
-  ReactDOM.render(
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>,
-    document.getElementById('root')
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <RouterProvider router={router} />
   );
