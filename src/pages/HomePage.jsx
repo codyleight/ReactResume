@@ -9,7 +9,7 @@ export default function HomePage() {
     <div className="bgda text-danger mt-5 home" style={{ display: 'flex', justifyContent: 'center' }}>
       
   <img
-    src=".\assets\banner6.png"
+    src="../assets/banner6"
     alt="Full Stack Developer"
     className="img-fluid"
   />
