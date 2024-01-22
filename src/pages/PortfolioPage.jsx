@@ -6,12 +6,12 @@ export default function PortfolioPage() {
   return (
     <div className=" d-flex justify-content-center">
       <div className="row">
-        <Project title="DnD Character Generator" imageSrc="/assets/DND.png" link="https://codyleight.github.io/DnDCharacter/" />
-        <Project title="Project 2" imageSrc="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
-        <Project title="Project 3" imageSrc="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
-        <Project title="Project 4" imageSrc="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
-        <Project title="Project 5" imageSrc="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" />
-        <Project title="Project 6" imageSrc="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" />
+        <Project title="DnD Character Generator" imageSrc="/assets/Dnd2.png" link="https://codyleight.github.io/DnDCharacter/" />
+        <Project title="Weather App" imageSrc="/assets/Weather.png" link="https://codyleight.github.io/Week6Weather/" />
+        <Project title="Food Video" imageSrc="/assets/FoodVideoReview.png" link="https://dishdashproject-21053540d927.herokuapp.com/" />
+        <Project title="CSS CheatSheet" imageSrc="/assets/CssCheat.png" link="https://codyleight.github.io/CSSCheat/" />
+        <Project title="Day Scheduler" imageSrc="/assets/Scheduler.png" link="https://codyleight.github.io/Week5Scheduler/" />
+        <Project title="Password Generator" imageSrc="/assets/Password.png" link="https://codyleight.github.io/challenge3-password/" />
       </div>
     </div>
   );
