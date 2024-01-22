@@ -16,6 +16,7 @@ import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
+import ErrorPage from './pages/ErrorPage';
 
 import App from './App';
 
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
     {
       path: '/',
       element: <App />,
-      //errorElement: <ErrorPage />,
+      errorElement: <ErrorPage />,
       children: [
         {
           index: true,
