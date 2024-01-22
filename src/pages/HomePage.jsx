@@ -6,7 +6,8 @@ export default function HomePage() {
   return (
 
 
-
+<div className='text-center'>
+  <h2>Home</h2>
 <div className="bgpic ">
   <div className="row d-flex justify-content-center">
     <div className="col-sm align-self d-flex justify-content-end">
@@ -28,7 +29,7 @@ export default function HomePage() {
   </div>
 </div>
 
-    
+</div>
     
     
   );

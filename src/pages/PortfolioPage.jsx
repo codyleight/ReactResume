@@ -4,6 +4,10 @@ import Project from '../components/Project';
 
 export default function PortfolioPage() {
   return (
+    <div className="bg text-primary d-flex justify-content-center row text-center" >
+    <h2>
+        Portfolio
+    </h2>
     <div className=" d-flex justify-content-center">
       <div className="row">
         <Project title="DnD Character Generator" imageSrc="/assets/Dnd2.png" link="https://codyleight.github.io/DnDCharacter/" />
@@ -13,6 +17,7 @@ export default function PortfolioPage() {
         <Project title="Day Scheduler" imageSrc="/assets/Scheduler.png" link="https://codyleight.github.io/Week5Scheduler/" />
         <Project title="Password Generator" imageSrc="/assets/Password.png" link="https://codyleight.github.io/challenge3-password/" />
       </div>
+    </div>
     </div>
   );
 }

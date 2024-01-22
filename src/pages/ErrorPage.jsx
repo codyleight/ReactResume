@@ -10,7 +10,7 @@ export default function ErrorPage() {
    
     <div className="bg-dark text-primary" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <h2>
-            Error
+            Error Please Reload or go to the home page.
       </h2>
     </div>
   );

@@ -13,26 +13,26 @@ export default function AboutPage() {
             About Me
         </h2>
 
-      <h1 className='text-warning'>My name is cody thompson</h1>
-      <div class="clearfix">
+      <h3 className='text-warning '>My name is cody thompson</h3>
+      <div class="clearfix textabout">
 
 
-       <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" class="col-md-6 float-md-end mb-3 ms-md-3" alt="..."/>
+       <img src="/assets/prof.jpg" class="col-md-3 float-md-end mb-3 ms-md-3" alt="..."/>
 
-  <h4>
-    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-  </h4>
+  <h3 className='space' >
+    Thanks for looking at my coding portfolio! I am a <span>Full Stack Developer</span> living in Austin. I am originally from California, but I have loved the experience of being able to move out and explore new places. Sinc becoming an adult I have traveled quite a bit, as well as found jobs that I really loved to work at. I have a love for Video Games, and supporting and helping create them in any way is my dream in life. For the past 8 years I have made this dream a <span>Reality</span>.
+    I hope to Continue that dream in the future and Become better at my crafts.
+  </h3>
 
-  <h5>
-    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-  </h5>
+  <h3 className='space'>
+    Fun Facts time! I was a professional gamer in League of Legends early on in my life, and was able to play games for money. The skills and Teamwork that I learned from that experience were like no other. The Teamwork aspect and working with other people and schedules really boosted me early on in my life to prepare for real world scenarios of working with people. In addition it also strengethened my resolve to preform well in anything I do regardless of how I am feeling emotionally.</h3>
+
+  <h3>
+    
+  </h3>
 
   <p>
-    And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-  </p>
-
-  <p>
-    Skills
+ 
   </p>
 </div>
     </div>

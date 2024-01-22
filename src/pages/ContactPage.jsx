@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 export default function ContactPage() {
   return (
-    <section id="contact" className='bg text-primary'>
+    <section id="contact" className='bg text-dark text'>
       <div className="section-content justify-content-center d-flex">
-        <h1 className="section-header">Contact Cody</h1>
+        <h2 className="section-header">Contact Cody</h2>
       </div>
       <div className="contact-section pt-5 pb-5">
         <div className="container">
