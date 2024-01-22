@@ -1,19 +1,33 @@
+import { bottom } from '@popperjs/core';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function HomePage() {
- 
-
   return (
 
-    <div className="bgda text-danger mt-5 home" style={{ display: 'flex', justifyContent: 'center' }}>
-      
-  <img
-    src="https://lh3.googleusercontent.com/pw/ABLVV86kWQGNTkNeUzKDyvnCDl-77gilzCFZzGShMc85sw3VUq5WZ7x0SUuA1sg65zGysHYEp4Mpi6ctZ8pS3v4cmCrmunHwC4FGsGuM3pVV8cm2eKu1rZFYmytoQDc0yGA0QZL0ocie9O2YumYX2Ur274_S=w1875-h625-s-no-gm?authuser=0"
-    alt="Full Stack Developer"
-    className="img-fluid"
-  />
- 
+
+
+<div class="container bg2">
+  <div class="row">
+    <div class="col-sm align-self-center">
+      <h1>Full Stack Developer</h1>
+    </div>
+    <div class="col-sm-6 align-self-center">
+      <img src="src\assets\me2.png" alt="Full Stack Developer" className="img-fluid" />
+    </div>
+    <div class="col-sm align-self-center">
+      <h1>Developing for the future</h1>
+    </div>
+  </div>
+  <div className='container d-flex justify-content-center'>
+    <div className="row space">
+      <h2>One app at a time</h2>
+    </div>
+  </div>
 </div>
+
+    
+    
+    
   );
 }

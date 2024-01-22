@@ -1,11 +1,11 @@
 export default function Nav({ links }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-warning nav1  coolshadow">
+    <nav className="navbar navbar-expand-lg nav1  bg-dark">
       <div className="container-fluid">
-        <ul className="navbar-nav mb-2 mb-lg-2 text-light">
+        <ul className="navbar-nav mb-2 mb-lg-2 text-light font1">
           Cody Thompson Portfolio
         </ul>
-        <ul className="navbar-nav ms-auto mb-2 mb-lg-2">
+        <ul className="navbar-nav ms-auto mb-2 mb-lg-2 font1 text-center">
           {links.map((link) => link)}
         </ul>
       </div>

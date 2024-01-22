@@ -38,6 +38,9 @@ export default function ContactPage() {
             </div>
           </form>
         </div>
+        <div className="row space">
+    
+    </div>
       </div>
     </section>
   );

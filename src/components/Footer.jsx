@@ -10,7 +10,7 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='text-center text-white bg footer pt-5'>
+    <MDBFooter className='text-center text-white   pt-5'>
       
         
 
@@ -23,7 +23,7 @@ export default function App() {
         
       
 
-      <div className='text-center  bg-warning' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center  bg-dark footer' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         
         <a className='text-white' href='https://www.codyleight.com/'>
           codyleight.com
