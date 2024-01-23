@@ -286,3 +286,17 @@ border-radius: 2px;
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 768px) {
+  .iconsize {
+    font-size: 32px;
+    margin: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  .iconsize {
+    font-size: 24px;
+    margin: 2px;
+  }
+}
