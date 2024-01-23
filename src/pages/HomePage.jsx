@@ -10,12 +10,12 @@ export default function HomePage() {
   
 
     <div className="row d-flex justify-content-center">
-      <div className="col-sm align-self d-flex justify-content-center">
+      <div className="col-sm align-self ">
         
       </div>
       <div className=" d-flex justify-content-center ">
         
-        <img src="/assets/BannerFinal.png"  class="col-sm-12" alt="Banner Image"/>
+        <img src="/assets/BannerFinal.png"  class="col-sm-12 img-fluid" alt="Banner Image"/>
       </div>
     
     </div>
