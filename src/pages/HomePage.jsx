@@ -12,14 +12,23 @@ export default function HomePage() {
 
 <div className="container">
   <div className="row">
- 
     <div className="col-12 d-flex justify-content-center">
-      <div className='iconsize text-light'><IoLogoJavascript /> <FaReact /> <FaNode /> <SiMysql /> <SiCsharp /> <FaUnity /> <AiOutlineConsoleSql /> <TbFileTypeCss /> <FaJava /> <FaHtml5 /></div>
-      
-      <img src="/assets/BannerFinal.png" className="img-fluid " alt="Banner Image" />
       <div className="iconsize text-light">
-  <FaHtml5 /> <FaJava /> <TbFileTypeCss /> <AiOutlineConsoleSql /> <FaUnity /> <SiCsharp /> <SiMysql /> <FaNode /> <FaReact /> <IoLogoJavascript />
-</div> </div>
+        <IoLogoJavascript /> <FaReact /> <FaNode /> <SiMysql /> <SiCsharp /> <FaUnity /> <AiOutlineConsoleSql /> <TbFileTypeCss /> <FaJava /> <FaHtml5 />
+      </div>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col-12 text-center">
+      <img src="/assets/BannerFinal.png" className="img-fluid" alt="Banner Image" />
+    </div>
+  </div>
+  <div className="row">
+    <div className="col-12 d-flex justify-content-center">
+      <div className="iconsize text-light">
+        <FaHtml5 /> <FaJava /> <TbFileTypeCss /> <AiOutlineConsoleSql /> <FaUnity /> <SiCsharp /> <SiMysql /> <FaNode /> <FaReact /> <IoLogoJavascript />
+      </div>
+    </div>
   </div>
 </div>
 
