@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FaDownload } from "react-icons/fa";
 
 export default function ResumePage() {
   
@@ -8,13 +9,21 @@ export default function ResumePage() {
 
    
     <div>
+      <div className='d-flex justify-content-end iconsize text-light'>
+
+      <a href="/assets/Resume.pdf" download>
+        download resume:
+      <FaDownload />
+      </a>
+      </div>
     <div className=" text-primary" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <h2>
             Resume 
       </h2>
+      
     </div>
 
-    <div className="text-center text-warning">
+    <div className="text-center text-light">
       <h3>Employment History</h3>
       <br></br>
       <h4>Senior Customer Support Specialist at <span>Sciplay</span>, Austin

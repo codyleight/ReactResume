@@ -58,7 +58,7 @@ export default function ContactPage() {
 
 
   return (
-    <section id="contact" className='bg text-dark text'>
+    <section id="contact" className='bg text-light text'>
       <div className="section-content justify-content-center d-flex">
         <h2 className="section-header">Contact Cody</h2>
       </div>

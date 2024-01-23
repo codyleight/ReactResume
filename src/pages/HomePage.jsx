@@ -6,12 +6,12 @@ export default function HomePage() {
   return (
 
 
-<div className='text-center'>
+<div className=' '>
   
-  <div className="" >
+
     <div className="row d-flex justify-content-center">
       <div className="col-sm align-self d-flex justify-content-center">
-        <h1 className='text'></h1>
+        
       </div>
       <div className=" d-flex justify-content-center ">
         
@@ -26,7 +26,7 @@ export default function HomePage() {
        
       </div>
     </div>
-  </div>
+  
 </div>
 
 

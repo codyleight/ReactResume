@@ -205,7 +205,11 @@ border-radius: 2px;
   border-radius: 10px;
 }
 
-
+.iconsize{
+  font-size: 42px;
+  margin: 5px;
+  
+}
 
 .glow-on-hover:before {
   content: '';

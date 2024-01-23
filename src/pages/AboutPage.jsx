@@ -8,13 +8,13 @@ export default function AboutPage() {
 
    
    
-    <div className="bg text-primary d-flex justify-content-center row text-center" >
+    <div className="bg text-light d-flex justify-content-center row text-center" >
         <h2>
             About Me
         </h2>
 
-      <h3 className='text-warning '>My name is cody thompson</h3>
-      <div class="clearfix textabout">
+      <h3 className='text-light '>My name is cody thompson</h3>
+      <div class="clearfix textlight">
 
 
        <img src="/assets/prof.jpg" class="col-md-3 float-md-end mb-3 ms-md-3" alt="..."/>

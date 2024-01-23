@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagramSquare, FaMailBulk  } from "react-icons/fa";
 import React from 'react';
 import {
   MDBFooter,
@@ -28,17 +28,25 @@ export default function App() {
         <a className='text-white' href='https://www.codyleight.com/'>
           codyleight.com
         </a>
-        <div className="text-center ">
+        <div className="text-center iconsize">
             <a  className='text-end' href="https://github.com/codyleight">
                 <FaGithub />
             </a>
 
-
+            <a  className='text-end' href="https://www.linkedin.com/in/cody-thompson-29071b106/">
             <FaLinkedin />
+            </a>
 
-            <FaFacebookSquare />
+            <a className='text-end' href="mailto:codylthomp@gmail.com">
+            <FaMailBulk />
+            </a>
 
-            <FaInstagramSquare />
+
+  
+
+            
+
+            
             </div>
       
       </div>
