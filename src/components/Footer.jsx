@@ -10,7 +10,7 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='text-center text-white   '>
+    <MDBFooter className='text-center text-white   content-wrapper'>
       
         
 

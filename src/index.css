@@ -300,6 +300,14 @@ border-radius: 2px;
     margin: 2px;
   }
   body {
-    background-color: black;
+    background-color: #343a40;
+  }
+  footer {
+    margin-bottom: 0;
+  }
+  
+  .content-wrapper {
+    min-height: 100vh;
+    background-color: #343a40;
   }
 }
