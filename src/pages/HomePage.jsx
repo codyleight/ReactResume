@@ -17,15 +17,9 @@ export default function HomePage() {
         
         <img src="/assets/BannerFinal.png"  class="col-sm-12" alt="Banner Image"/>
       </div>
-      <div className="col-sm align-self-right d-flex justify-content-center ">
-        <h1 className='text'></h1>
-      </div>
+    
     </div>
-    <div className='container d-flex justify-content-center'>
-      <div className="row ">
-       
-      </div>
-    </div>
+    
   
 </div>
 

@@ -10,12 +10,11 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='text-center text-white   pt-5'>
+    <MDBFooter className='text-center text-white   '>
       
         
 
-      <p>Keep moving forward</p>
-      <p>Created by: Cody Thompson</p>
+     
      
           
             
@@ -23,10 +22,12 @@ export default function App() {
         
       
 
-      <div className='text-center  bg-dark footer' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center  bg-dark ' >
+      <p>Keep moving forward</p>
+      <p>Created by: Cody Thompson</p>
         
         <a className='text-white' href='https://www.codyleight.com/'>
-          codyleight.com
+          @ CodyLeighT
         </a>
         <div className="text-center iconsize">
             <a  className='text-end' href="https://github.com/codyleight">

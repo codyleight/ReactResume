@@ -12,7 +12,7 @@ export default function ResumePage() {
       <div className='d-flex justify-content-end iconsize text-light'>
 
       <a href="/assets/Resume.pdf" download>
-        download resume:
+        Download Resume:
       <FaDownload />
       </a>
       </div>
