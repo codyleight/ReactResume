@@ -10,6 +10,17 @@ export default function ContactPage() {
   const [email, setEmail] = useState('');
   const [emailError, setEmailError] = useState('');
 
+  const [name, setName] = useState('');
+  const [nameError, setNameError] = useState('');
+
+  const [submit, setSubmit] = useState('');
+
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+
+
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
   };
@@ -22,13 +33,26 @@ export default function ContactPage() {
       return;
     }
 
-    // Proceed with form submission or further processing
+    if (!nameIsValid(name)) {
+      setNameError('Name field is required.');
+      return;
+    }
+    else{
+    setSubmit('Submitted!');
+  }
+    
   };
 
   const emailIsValid = (email) => {
-    // Regular expression pattern for validating email address
+    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
+  };
+
+
+  const nameIsValid = (name) => {
+    const nameRegex = /^.+$/;
+    return nameRegex.test(name);
   };
 
 
@@ -46,7 +70,17 @@ export default function ContactPage() {
             <div className="row-md-6 form-line pt-5 ">
               <div className="form-group">
                 <label htmlFor="exampleInputUsername">Your name</label>
-                <input type="text" className="form-control" id="" placeholder="Enter Name" />
+                
+                <input
+  type="name"
+  className="form-control"
+  id="exampleInputUsername"
+  placeholder="Enter name"
+  value={name}
+  onChange={handleNameChange}
+/>
+
+          {nameError && <div className="text-danger">{nameError}</div>}
               </div>
 
 
@@ -73,6 +107,8 @@ export default function ContactPage() {
   <label htmlFor="description">Message</label>
   <textarea className="form-control" id="description" placeholder="Enter Your Message" rows={5}></textarea>
 </div>
+
+{<div className="text-danger">{submit}</div>}
               <div className="d-flex justify-content-center">
 
 

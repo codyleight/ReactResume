@@ -50,8 +50,13 @@ h1 {
 }
 
 .bgpic{
-  background-image: url('/assets/Banner2.jpg');
- 
+  background-image: url('/assets/BannerFinal.png');
+  
+  
+}
+
+.text{
+  font-size: large;
 }
 
 

@@ -7,29 +7,29 @@ export default function HomePage() {
 
 
 <div className='text-center'>
-  <h2>Home</h2>
-<div className="bgpic ">
-  <div className="row d-flex justify-content-center">
-    <div className="col-sm align-self d-flex justify-content-end">
-      
-      <h1 className=''>Full Stack Developer</h1>
-      
+  
+  <div className="" >
+    <div className="row d-flex justify-content-center">
+      <div className="col-sm align-self d-flex justify-content-center">
+        <h1 className='text'></h1>
+      </div>
+      <div className=" d-flex justify-content-center ">
+        
+        <img src="/assets/BannerFinal.png"  class="col-sm-12" alt="Banner Image"/>
+      </div>
+      <div className="col-sm align-self-right d-flex justify-content-center ">
+        <h1 className='text'></h1>
+      </div>
     </div>
-    <div className="col-sm-5 align-self-center ">
-      Cody Thompson
-    </div>
-    <div className="col-sm align-self-right d-flex justify-content-start ">
-      <h1 className=''>Developing for the future</h1>
-    </div>
-  </div>
-  <div className='container d-flex justify-content-center'>
-    <div className="row space">
-      <h2>One app at a time</h2>
+    <div className='container d-flex justify-content-center'>
+      <div className="row ">
+       
+      </div>
     </div>
   </div>
 </div>
 
-</div>
+
     
     
   );
