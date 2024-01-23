@@ -299,4 +299,7 @@ border-radius: 2px;
     font-size: 24px;
     margin: 2px;
   }
+  body {
+    background-color: black;
+  }
 }
