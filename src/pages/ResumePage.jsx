@@ -8,7 +8,7 @@ export default function ResumePage() {
   return (
 
    
-    <div>
+    <div className='bg'>
       <div className='d-flex justify-content-end iconsize text-light'>
 
       <a href="/assets/Resume.pdf" download>

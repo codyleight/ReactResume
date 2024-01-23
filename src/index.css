@@ -39,10 +39,9 @@ body {
  
   background-color: #192824;
   background: #159957;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
-background: rgb(130,45,209);
-background: linear-gradient(11deg, rgba(130,45,209,1) 1%, rgba(0,198,195,1) 75%, rgba(255,230,0,1) 100%);
 
+background: rgb(255,230,0);
+background: linear-gradient(13deg, rgba(255,230,0,1) 0%, rgba(130,45,209,1) 1%, rgba(1,79,106,1) 68%, rgba(54,1,106,1) 99%);
 }
 
 .navbar-toggler-icon{
