@@ -35,7 +35,7 @@ I am excited to showcase my projects and share my journey as a Full Stack Develo
   </h3>
 
   <h3 className='space'>
-  Time for some fun facts! In the early stages of my life, I had the incredible opportunity to be a professional gamer in League of Legends. Not only did this allow me to play games for money, but it also taught me invaluable skills in teamwork and collaboration. Working with a team and managing schedules in the gaming world prepared me for real-world scenarios of working with people.
+  Time for some fun facts! In the early stages of my life, I had the incredible opportunity to be a <span>Professional Gamer</span> in League of Legends. Not only did this allow me to play games for money, but it also taught me invaluable skills in teamwork and collaboration. Working with a team and managing schedules in the gaming world prepared me for real-world scenarios of working with people.
 
 
 This experience not only enhanced my ability to work effectively with others but also strengthened my determination to perform at my best, regardless of my emotional state. It taught me the importance of resilience and consistently delivering high-quality results.

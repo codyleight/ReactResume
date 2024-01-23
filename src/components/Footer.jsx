@@ -24,10 +24,10 @@ export default function App() {
 
       <div className='text-center  bg-dark ' >
       <p>Keep moving forward</p>
-      <p>Created by: Cody Thompson</p>
+     
         
         <a className='text-white' href='https://www.codyleight.com/'>
-          @ CodyLeighT
+        © Cody L. Thompson
         </a>
         <div className="text-center iconsize">
             <a  className='text-end' href="https://github.com/codyleight">

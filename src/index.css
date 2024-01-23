@@ -45,6 +45,11 @@ background: linear-gradient(11deg, rgba(130,45,209,1) 1%, rgba(0,198,195,1) 75%,
 
 }
 
+.navbar-toggler-icon{
+  color: #00ffd5;
+  background-color: #f1f1f1;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

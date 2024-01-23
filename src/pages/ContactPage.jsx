@@ -28,15 +28,17 @@ export default function ContactPage() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
+    if (!nameIsValid(name)) {
+      setNameError('Name field is required.');
+      return;
+    }
+
     if (!emailIsValid(email)) {
       setEmailError('Please enter a valid email address.');
       return;
     }
 
-    if (!nameIsValid(name)) {
-      setNameError('Name field is required.');
-      return;
-    }
+   
     else{
     setSubmit('Submitted!');
   }
