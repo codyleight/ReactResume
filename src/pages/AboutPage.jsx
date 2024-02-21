@@ -14,10 +14,10 @@ export default function AboutPage() {
         </h2>
 
       <h3 className='text-light '>My name is <span>Cody Thompson</span></h3>
-      <div class="clearfix textlight">
+      <div className="clearfix textlight">
 
 
-       <img src="/assets/prof.jpg" class="col-md-3 float-md-end mb-3 ms-md-3" alt="..."/>
+       <img src="/assets/prof.jpg" className="col-md-3 float-md-end mb-3 ms-md-3 imgedit" alt="..."/>
 
   <h3 className='space ' >
   Welcome to my coding portfolio! I am a passionate <span >Full Stack Developer</span> based in Austin, Texas. Originally from California, I have always had a sense of adventure and a desire to explore new places. As an adult, I have had the opportunity to travel extensively and work in various fulfilling roles in the <span>Tech and Gaming industry.</span>

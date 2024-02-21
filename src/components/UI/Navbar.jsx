@@ -1,8 +1,10 @@
+
+
 export default function Nav({ links }) {
   return (
     <nav className="navbar navbar-expand-lg bg-dark ">
       <div className="container-fluid">
-        <a className="navbar-brand text-light font1" href="#">
+        <a className="navbar-brand text-light font1"  href="#">
           Cody Thompson Portfolio
         </a>
         <button

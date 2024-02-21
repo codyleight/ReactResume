@@ -6,6 +6,8 @@ import { AiOutlineConsoleSql } from "react-icons/ai";
 import { TbFileTypeCss } from "react-icons/tb";
 import { FaHtml5 } from "react-icons/fa";
 
+
+
 export default function HomePage() {
   return (
 
@@ -20,7 +22,7 @@ export default function HomePage() {
   </div>
   <div className="row">
     <div className="col-12 text-center">
-      <img src="/assets/BannerFinal.png" className="img-fluid" alt="Banner Image" />
+      <img src="/assets/BannerFinal.png" className="img-fluid imgedit" alt="Banner Image" />
     </div>
   </div>
   <div className="row">

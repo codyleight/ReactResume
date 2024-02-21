@@ -10,7 +10,7 @@ const Project = ({ title, imageSrc, link }) => {
         <Link to={link}>
           <img
             src={imageSrc}
-            className="w-100 shadow-1-strong rounded mb-4"
+            className="w-100 shadow-1-strong rounded mb-4 imgedit2"
             alt={title}
           />
         </Link>

@@ -9,6 +9,8 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './index.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
+import googleFonts from 'google-fonts';
+
 
 
 //pages, todo: nav bar and resume page.

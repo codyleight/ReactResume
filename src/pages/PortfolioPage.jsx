@@ -10,7 +10,7 @@ export default function PortfolioPage() {
     </h2>
     <div className=" d-flex justify-content-center">
       <div className="row">
-        <Project title="DnD Character Generator" imageSrc="/assets/Dnd2.png" link="https://codyleight.github.io/DnDCharacter/" />
+        <Project title="DnD Character Generator" imageSrc="/assets/Dnd2.png" link="https://codyleight.github.io/DnDCharacter/"  />
         <Project title="Weather App" imageSrc="/assets/Weather.png" link="https://codyleight.github.io/Week6Weather/" />
         <Project title="Food Video" imageSrc="/assets/FoodVideoReview.png" link="https://dishdashproject-21053540d927.herokuapp.com/" />
         <Project title="CSS CheatSheet" imageSrc="/assets/CssCheat.png" link="https://codyleight.github.io/CSSCheat/" />
