@@ -27,7 +27,7 @@ export default function ResumePage() {
       <h3>Employment History</h3>
       <br></br>
       <h4>Senior Customer Support Specialist at <span>Sciplay</span>, Austin
-March 2019 — Feburary 2023</h4>
+March 2019 — Feburary 2024</h4>
 <br></br>
 <h5>• Provided personalized customer support that went above and 
 beyond the customer's expectations, resulting in a increase in 
