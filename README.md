@@ -2,7 +2,7 @@
     
 ## Description:
 
-This project showcases our use of React to create a responsive single page website that reacts to user input in a flash!
+This project showcases our use of React to create a responsive single page website that reacts to user input in a flash!!
     
 ## Table of Contents:
 
